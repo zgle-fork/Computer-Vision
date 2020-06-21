@@ -47,7 +47,7 @@ for c in cnts:
 		screenCnt = approx
 		break
 	else:
-		print "[INFO] No Contours detected"
+		print("[INFO] No Contours detected")
 
 cv.drawContours(image, [screenCnt], -1, (0, 255, 0), 2)
 cv.imshow("Outline", image)

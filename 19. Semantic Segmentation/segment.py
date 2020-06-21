@@ -1,3 +1,6 @@
+# Need to install cv4 to use cv2.dnn.readNet(args["model"])
+# https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/
+
 #import the necessary packages
 import numpy as np
 import argparse
